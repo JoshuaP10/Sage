@@ -91,6 +91,17 @@ python chat.py --author warren_buffett
 streamlit run app.py
 ```
 
+> Using a model other than the default `llama3.1:8b`? Set it first, e.g.
+> `export SAGE_GEN_MODEL=qwen3:8b`, or the app will try to load a model you
+> haven't pulled.
+
+---
+
+## Share it online
+
+To put Sage on a server with a link you can hand to friends and family, see
+[`DEPLOY.md`](DEPLOY.md) for a step-by-step Google Cloud (GCP) walkthrough.
+
 ---
 
 ## Configuration
