@@ -1,0 +1,13 @@
+# Vector store (regenerate with `python ingest.py`)
+chroma_db/
+
+# Don't commit copyrighted source material; only commit public-domain
+# or freely-licensed text you have the right to share.
+data/**/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
